@@ -1,0 +1,103 @@
+*
+        {
+           margin: 0px;
+        }
+        
+        aside
+        {
+            padding: 1rem;
+            width:160px;
+            height:173vh;
+            background-color:lightblue;
+            float: left;
+        }
+        aside>a
+        {
+            padding: 5px 15px;
+            display: block;
+            font-size: 20px;
+            margin-bottom: 60px;
+            text-decoration: none;
+            background-color: white;
+            text-align: center;
+
+        }
+        #i
+        {
+            width: 170px;
+            height: 200px;
+            background-color: black;
+        
+        }
+        #sec-1
+        {
+            border: 2px ;
+            margin: 0 0 100px 174px;
+            padding: 10px;
+            background: linear-gradient(45deg,lightblue,blue);
+            background-color: cornflowerblue
+
+        }
+        #sec-2
+        {
+           border: 2px;
+           padding: 10px;
+           margin: -100px 0 100px 174px;
+           background: linear-gradient(45deg,lightblue,blue);
+
+
+           
+        }
+        #sec-3
+        {
+           border: 2px;
+           padding: 10px;
+           margin: -100px 0 100px 174px;
+           background: linear-gradient(45deg,lightblue,blue);
+
+
+        }
+        #sec-4
+        {
+           border: 2px;
+           padding: 10px;
+           margin: -100px 0 100px 174px;
+           background: linear-gradient(45deg,lightblue,blue);
+
+
+        }
+        #sec-5
+        {
+           border: 2px;
+           padding: 33px;
+           margin: -100px 0 100px 174px;
+           background: linear-gradient(45deg,lightblue,blue);
+
+
+        }
+        #sec-6
+        {
+           border: 2px;
+           padding: 33px;
+           margin: -100px 0 100px 174px;
+           background: linear-gradient(45deg,lightblue,blue);
+
+
+        }
+        
+
+        input
+        {
+            background-color:rgb(161, 207, 245);
+            margin: 2px;
+        }
+        aside>#links>a:hover
+        {
+          color: cadetblue;
+        }
+        table
+        {
+            height: 40vh;
+            width: 60vh;
+            text-align: center;
+        }

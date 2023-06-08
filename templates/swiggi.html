@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local method</title>
+    <link rel="stylesheet" href="../WEB 7EWA15/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../WEB 7EWA15/Bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="{% static 'css/c5.css' %}">
+</head>
+<body>
+  <div class="container-fluid" >
+    <div class="row">
+        <div class="col">
+            <h2 class="text-warning">swiggy cart:</h2>
+            <p> Swiggy is an Indian online food ordering and delivery platform.<br>
+               Founded in 2014, Swiggy is based in Bangalore and operates in 500 Indian cities as of September 2021.[5][6] Besides food delivery, Swiggy also provides on-demand grocery deliveries under the name Instamart, and a same-day package delivery service called Swiggy Genie.
+
+            </p>
+            <button class="btn btn-warning btn-md">Order Now</button>
+        </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <table class="table table-stripped">
+          <thead class="btn-warning text-dark text-center">
+            <tr>
+              <th>S.no</th>
+              <th>Image</th>
+              <th>Item Name</th>
+              <th>Price</th>
+              <th>Qty</th>
+              <th>total price</th>
+            </tr>
+
+          </thead>
+          <tbody class="table-warning text-center text-dark">
+            <tr>
+              <td>1</td>
+              <td><img src="{% static 'images/veg.jpg' %}" class="img-circle"></td>
+              <td>Veg Biryani</td>
+              <td>299.00</td>
+              <td>
+                <i class="fa fa-minus-circle pr-2" id="dec" ></i>
+                <span id="count"></span>
+                <i class="fa fa-plus-circle pl-2" id="inc"></i>
+              </td>
+              <td>299.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><img src="{% static 'images/dum.jpg' %}" class="img-circle"></td>
+              <td>Dum Biryani</td>
+              <td>300.00</td>
+              <td>
+                <i class="fa fa-minus-circle pr-2"></i>
+                <span>0</span>
+                <i class="fa fa-plus-circle pl-2"></i>
+              </td>
+              <td>299.00</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><img src="{% static 'images/tandoori.jpg' %}" class="img-circle"></td>
+              <td>tandoori chicken</td>
+              <td>299.00</td>
+              <td>
+                <i class="fa fa-minus-circle pr-2"></i>
+                <span>0</span>
+                <i class="fa fa-plus-circle pl-2"></i>
+              </td>
+              <td>299.00</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><img src="{% static 'images/pannir1.webp' %}" class="img-circle"></td>
+              <td>paneer butter masala</td>
+              <td>299.00</td>
+              <td>
+                <i class="fa fa-minus-circle pr-2"></i>
+                <span>0</span>
+                <i class="fa fa-plus-circle pl-2"></i>
+    
+
+              </td>
+              <td>299.00</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    
+</body>
+</html>

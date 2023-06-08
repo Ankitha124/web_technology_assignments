@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+
+</head>
+<body>
+    <aside>
+        <div id="i"><img src="{% static 'images/akt.jpg' %}" height="200px" width="170px" alt="" ></div>
+            <a href="#sec-1">Career</a>
+            <a href="#sec-2">Education</a>
+            <a href="#sec-3">Strength</a>
+            <a href="#sec-4">Hobbies</a>
+            <a href="#sec-5">Projects</a>
+            <a href="#sec-6">Personal Info</a>
+        </aside>
+        <section id="sec-1">
+            <h1>Career Objective</h1>
+            <p>Seeking a challenging position in an environment where my professional attitude drives towrds succes and enables me tocontribute to furthur growth and development of organisation and myself </p>
+        </section>
+        <section id="sec-2">
+            <h1>Education Details</h1>
+            <table border="1px">
+                <tr>
+                    <th>Qualification</th>
+                    <th>Percentage</th>
+                    <th>YOP</th>
+
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>79%</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>PUC</td>
+                    <td>85.33%</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>BCA</td>
+                    <td>73%</td>
+                    <td>2022</td>
+                </tr>
+            </table>
+        </section>
+        <section id="sec-3">
+            <h1>Strengths</h1>
+           <ol>
+               <li>Adaptable for all environment</li>
+               <li>active listener</li>
+               <li>self motivated</li>
+           </ol>
+       </section>
+       <section id="sec-4">
+           <h1>Hobbies</h1>
+           <ol>
+               <li>listening music</li>
+               <li>throw ball</li>
+               <li>travelling</li>
+           </ol>
+       </section>
+       <section id="sec-5">
+           <h1>Project</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dignissimos magnam, iure at incidunt voluptates iste aliquid maiores esse molestias enim nisi odio asperiores ut, sit error quas reiciendis fugiat.</p>
+       </section>
+       <section id="sec-6">
+           <h1>Personal Info</h1>
+           <form action="">
+               <table>
+              <tr>      
+               <td><label for="name">Name:</label></td>
+              <td><input type="text" placeholder="enter name" ></td></tr>
+              <tr>
+               <td><label for="name"> Father Name:</label></td>
+              <td><input type="text" placeholder="enter father name"></td></tr>
+              <tr>
+               <td><label for="name">Mother Name:</label></td>
+              <td><input type="text" placeholder="enter mother name"></td></tr>
+              <tr>
+               <td><label for="dob">date of birth:</label></td>
+              <td><input type="number" placeholder="enter dob"></td></tr>
+           </table>
+           
+           </form>
+       </section>
+   </body>
+   </html>
+</body>
+</html>

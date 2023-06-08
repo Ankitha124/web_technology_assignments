@@ -1,0 +1,73 @@
+#parent,#wrapper_1,#left,#right
+        {
+            box-shadow: 0 0 10px red;
+            width: 300px;
+            height: 360px;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #parent>img
+        {
+            width: inherit;
+            height: inherit;
+            filter:grayscale(100px);
+            transition: all 1s linear 2s;
+        }
+        #parent:hover
+        {
+            cursor:pointer;
+        }
+        #parent:hover>img
+        {
+            filter: grayscale(0%);
+            transform: scale(1.2,1.2);
+        
+        }
+        #parent>#wrapper_1
+        {
+            background-image:url(curtain.jpg);
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            transition: all 1s linear 1s;
+            margin: 0px;
+        }
+        #parent:hover>#wrapper_1
+        {
+            transform: translatey(-100%) ;
+            
+        }
+        #parent>#left
+        {
+            background-color: rgba(0, 255, 0);
+            top: 0px;
+            left: 0px;
+            width: 50%;
+            position: absolute;
+            transform-origin: left;
+            transition: all 1s linear 0s;
+            margin: 0px;
+
+        }
+        #parent:hover>#left
+        {
+            transform: perspective(200px) rotatey(90deg);
+        }
+        #parent>#right
+        {
+            background-color: rgba(0, 0, 255);
+            top: 0px;
+            left: 50%;
+            width: 50%;
+            position: absolute;
+            transform-origin: right;
+            transition: all 1s linear 0s;
+            margin: 0px;
+
+        }
+        #parent:hover>#right
+        {
+            transform: perspective(200px) rotatey(-90deg);
+        }
